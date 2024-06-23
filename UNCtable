@@ -1,0 +1,117 @@
+print("\n")
+UNC Environment Check  
+ ✅ - Pass, ⛔ - Fail, ⏺️ - No test, ⚠️ - Missing aliases
+ print("\n")
+  15:37:37.581  ✅ cache.invalidate 
+  15:37:37.581  ✅ cache.iscached  
+  15:37:37.581  ✅ cache.replace 
+  15:37:37.581  ✅ cloneref 
+  15:37:37.581  ✅ compareinstances 
+  15:37:37.582  ✅ checkcaller  
+  15:37:37.583  ✅ clonefunction  
+  15:37:37.583  ⏺️ getcallingscript 
+  15:37:37.583  ⛔ getscriptclosure
+  15:37:37.583  ⛔ hookfunction failed
+  15:37:37.584  ✅ iscclosure  
+  15:37:37.584  ✅ islclosure 
+  15:37:37.584  ✅ isexecutorclosure 
+  15:37:37.584  ⛔ loadstring failed
+  15:37:37.585  ✅ newcclosure 
+  15:37:37.585  ⏺️ rconsoleclear 
+  15:37:37.585  ⏺️ rconsolecreate 
+  15:37:37.585  ⏺️ rconsoledestroy 
+  15:37:37.585  ⏺️ rconsoleinput  
+  15:37:37.585  ⏺️ rconsoleprint 
+  15:37:37.585  ⏺️ rconsolesettitle  
+  15:37:37.586  ✅ crypt.base64encode
+  15:37:37.586  ✅ crypt.base64decode
+  15:37:37.586  ✅ crypt.encrypt
+  15:37:37.586  ✅ crypt.decrypt
+  15:37:37.587  ✅ crypt.generatebytes
+  15:37:37.587  ✅ crypt.generatekey
+  15:37:37.587  ✅ crypt.hash
+  15:37:37.587  ⛔ debug.getconstant
+  15:37:37.588  ⛔ debug.getconstants 
+  15:37:37.588  ⛔ debug.getinfo 
+  15:37:37.588  ⛔ debug.getproto
+  15:37:37.588  ⛔ debug.getprotos
+  15:37:37.588  ⛔ debug.getstack 
+  15:37:37.588  ⛔ debug.getupvalue
+  15:37:37.588  ⛔ debug.getupvalues
+  15:37:37.589  ⛔ debug.setconstant
+  15:37:37.589  ⛔ debug.setstack
+  15:37:37.589  ⛔ debug.setupvalue
+  15:37:37.589  ✅ readfile
+  15:37:37.589  ✅ listfiles
+  15:37:37.589  ✅ writefile
+  15:37:37.589  ✅ makefolder
+  15:37:37.590  ✅ appendfile
+  15:37:37.590  ✅ isfile
+  15:37:37.590  ✅ isfolder
+  15:37:37.590  ✅ delfolder
+  15:37:37.590  ✅ delfile
+  15:37:37.591  ✅ loadfile
+  15:37:37.591  ⏺️ dofile
+  15:37:37.591  ✅ isrbxactive
+  15:37:37.591  ⏺️ mouse1click
+  15:37:37.591  ⏺️ mouse1press
+  15:37:37.591  ⏺️ mouse1release
+  15:37:37.591  ⏺️ mouse2click
+  15:37:37.591  ⏺️ mouse2press
+  15:37:37.591  ⏺️ mouse2release
+  15:37:37.592  ⏺️ mousemoveabs
+  15:37:37.592  ⏺️ mousemoverel
+  15:37:37.592  ⏺️ mousescroll
+  15:37:37.592  ✅ fireclickdetector
+  15:37:37.592  ⛔ getcallbackvalue
+  15:37:37.592  ⛔ getconnections
+  15:37:37.593  ⛔ getcustomasset
+  15:37:37.593  ⛔ gethiddenproperty
+  15:37:37.593  ⛔ sethiddenproperty
+  15:37:37.593  ✅ gethui
+  15:37:37.594  ✅ getinstances
+  15:37:37.594  ✅ getnilinstances
+  15:37:37.594  ✅ isscriptable
+  15:37:37.594  ⛔ setscriptable
+  15:37:37.595  ⏺️ setrbxclipboard
+  15:37:37.595  ⛔ getrawmetatable
+  15:37:37.595  ⛔ hookmetamethod
+  15:37:37.595  ⛔ getnamecallmethod
+  15:37:37.595  ✅ isreadonly
+  15:37:37.596  ⛔ setrawmetatable
+  15:37:37.596  ⛔ setreadonly
+  15:37:37.596  ✅ identifyexecutor • Returns version as a string
+  15:37:37.596  ✅ lz4compress
+  15:37:37.596  ✅ lz4decompress
+  15:37:37.596  ⏺️ messagebox
+  15:37:37.596  ⏺️ queue_on_teleport
+  15:37:37.597  ⛔ request
+  15:37:37.597  ⏺️ setclipboard
+  15:37:37.597  ✅ getgenv
+  15:37:37.598  ✅ getloadedmodules
+  15:37:37.598  ✅ getrenv
+  15:37:37.599  ✅ getrunningscripts
+  15:37:37.599  ✅ getscriptbytecode
+  15:37:37.600  ⛔ getscripthash
+  15:37:37.600  ✅ getscripts
+  15:37:37.600  ✅ getsenv
+  15:37:37.601  ✅ getthreadidentity
+  15:37:37.601  ✅ setthreadidentity
+  15:37:37.601  ⏺️ Drawing
+  15:37:37.601  ✅ Drawing.new
+  15:37:37.601  ✅ Drawing.Fonts
+  15:37:37.601  ✅ isrenderobj
+  15:37:37.601  ✅ getrenderproperty
+  15:37:37.602  ✅ setrenderproperty
+  15:37:37.602  ✅ cleardrawcache
+  15:37:37.602  ⏺️ WebSocket
+  15:37:37.602  ⛔ WebSocket.connect
+  15:37:37.762  ✅ setfpscap • 236fps @60 • 240fps @0
+  15:37:37.763  ✅ getgc  
+  15:37:37.764  
+
+  15:37:37.764  UNC Summary
+  15:37:37.764  ✅ Tested with a 67% success rate (55 out of 83)
+  15:37:37.764  ⛔ 27 tests failed
+  15:37:37.765  ⚠️ 1 globals are missing aliases
+
